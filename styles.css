@@ -1,72 +1,76 @@
 #header_one {
-    background-color: indigo;
-    color: azure;
+  background-color: indigo;
+  color: azure;
 }
 
-.intro_column { /* Found code at W3schools css tutotial */
-    float: left;
-    width: 20%;
-    padding: 20px;
-    background: gray;
-    color:black;
-    font-family: Arial, Helvetica, sans-serif
+.intro_column {
+  /* Found code at W3schools css tutotial */
+  float: left;
+  width: 20%;
+  padding: 20px;
+  background: gray;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.list_column { /* Found code at W3schools css tutotial */
-    float: left;
-    width: 40%;
-    padding: 20px;
-    background: darkgrey
+.list_column {
+  /* Found code at W3schools css tutotial */
+  float: left;
+  width: 40%;
+  padding: 20px;
+  background: darkgrey;
 }
 
-.body_one { /* Found code at W3schools css tutotial */
-    width: 60%;
-    text-align: center;
-    margin: 0 auto;
-    clear: both;    
-    content: "";
-    display: table
+.body_one {
+  /* Found code at W3schools css tutotial */
+  width: 60%;
+  text-align: center;
+  margin: 0 auto;
+  clear: both;
+  content: "";
+  display: table;
 }
 
 img {
-    width: 105%;
-    float: left;
-    
+  width: 105%;
+  float: left;
 }
 
-.list{ /* Found code at flexbox main page, https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
-    padding: 0;
-    margin: 0;
-    list-style: none;
-  
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-  
-    -webkit-flex-flow: row wrap;
-    justify-content: space-around
+.list {
+  /* Found code at flexbox main page, https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
 }
 
-.flex_list{ /* Found code at flexbox main page, https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
-    background:lightblue;
-    padding: 5px;
-    width: 110px;
-    height: 110px;
-    margin-top: 10px;
-  
-    line-height: 23px;
-    color:black;
-    font-weight: bold;
-    font-size: smaller;
-    text-align: center;
+.flex_list {
+  /* Found code at flexbox main page, https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
+  background: lightblue;
+  padding: 5px;
+  width: 110px;
+  height: 110px;
+  margin-top: 10px;
+
+  line-height: 23px;
+  color: black;
+  font-weight: bold;
+  font-size: smaller;
+  text-align: center;
 }
 
 .work_history {
-    color:black;
-    border-top: 1px dashed white;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px
+  color: black;
+  border-top: 1px dashed white;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
 }
